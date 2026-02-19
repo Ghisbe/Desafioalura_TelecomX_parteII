@@ -1,4 +1,4 @@
-# TelecomX – Predicción de Cancelación de Clientes (Churn)
+# TelecomX – Predicción de cancelación de clientes (Churn)
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange)
@@ -7,23 +7,14 @@
 
 ---
 
-## Descripción del Proyecto
+## Descripción del proyecto:
 
 Este proyecto tiene como objetivo desarrollar modelos predictivos capaces de identificar qué clientes tienen mayor probabilidad de cancelar sus servicios.
-
-Se construyó un pipeline completo que abarca:
-
-- Preprocesamiento de datos  
-- Análisis exploratorio  
-- Selección de variables  
-- Entrenamiento de modelos  
-- Evaluación de desempeño  
-- Interpretación estratégica  
 
 ---
 
 
-## Objetivos del Proyecto
+## Objetivos del proyecto:
 
 - Preparar los datos para el modelado (limpieza, codificación y normalización).
 - Realizar análisis de correlación y selección de variables.
@@ -34,7 +25,7 @@ Se construyó un pipeline completo que abarca:
 
 ---
 
-## Tecnologías Utilizadas
+## Tecnologías utilizadas:
 
 - Python  
 - Pandas  
@@ -46,11 +37,11 @@ Se construyó un pipeline completo que abarca:
 
 ---
 
-## Cómo Ejecutar el Proyecto
+## Cómo ejecutar el proyecto:
 
 Este proyecto fue desarrollado en **Google Colaboratory**.
 
-### Pasos para ejecutarlo
+### Pasos para ejecutarlo:
 
 Para replicar este análisis en la nube, sigue estas instrucciones:
 
@@ -59,7 +50,7 @@ Para replicar este análisis en la nube, sigue estas instrucciones:
 3. **Subir el notebook:** Carga el archivo descargado en la plataforma.
 4. **Cargar los datos:** Sube manualmente el archivo CSV cuando el notebook lo solicite utilizando el siguiente bloque de código:
 
-### Código de Carga (Python)
+### Código de Carga (Python):
 
 ```python
 from google.colab import files
@@ -70,6 +61,6 @@ import pandas as pd
 df = pd.read_csv("/content/datos_desafio_uno.csv")
 ```
 ---
-## Autora
+## Autora:
 **Gisela Figueroa**
 

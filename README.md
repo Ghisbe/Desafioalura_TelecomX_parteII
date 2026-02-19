@@ -1,4 +1,4 @@
-# TelecomX – Predicción de cancelación de clientes (Churn)
+# TelecomX – Predicción de cancelación de clientes
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange)

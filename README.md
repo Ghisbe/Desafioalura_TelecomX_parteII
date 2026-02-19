@@ -46,11 +46,11 @@ Se construyó un pipeline completo que abarca:
 
 ---
 
-# Cómo Ejecutar el Proyecto
+## Cómo Ejecutar el Proyecto
 
 Este proyecto fue desarrollado en **Google Colaboratory**.
 
-## 🛠️ Pasos para ejecutarlo
+### Pasos para ejecutarlo
 
 Para replicar este análisis en la nube, sigue estas instrucciones:
 
@@ -68,4 +68,8 @@ uploaded = files.upload()
 # Una vez subido, leer el archivo con pandas
 import pandas as pd
 df = pd.read_csv("/content/datos_desafio_uno.csv")
+```
+---
+## Autora
+**Gisela Figueroa**
 

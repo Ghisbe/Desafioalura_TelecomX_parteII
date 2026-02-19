@@ -50,30 +50,22 @@ Se construyó un pipeline completo que abarca:
 
 Este proyecto fue desarrollado en **Google Colaboratory**.
 
-## Pasos para ejecutarlo:
+## 🛠️ Pasos para ejecutarlo
 
-1. Descargar el archivo `.ipynb` desde este repositorio.
-2. Ingresar a Google Colab:  
-   https://colab.research.google.com
-3. Subir el notebook al.
-4. Cargar manualmente el archivo CSV cuando el notebook lo solicite.
+Para replicar este análisis en la nube, sigue estas instrucciones:
 
-Ejemplo:
+1. **Descargar el archivo:** Baja el archivo `.ipynb` desde este repositorio.
+2. **Ingresar a Google Colab:** Accede a [colab.research.google.com](https://colab.research.google.com).
+3. **Subir el notebook:** Carga el archivo descargado en la plataforma.
+4. **Cargar los datos:** Sube manualmente el archivo CSV cuando el notebook lo solicite utilizando el siguiente bloque de código:
+
+### Código de Carga (Python)
 
 ```python
 from google.colab import files
-uploaded = files.upload() ```
-Luego:
-```python
+uploaded = files.upload() 
+
+# Una vez subido, leer el archivo con pandas
 import pandas as pd
-df = pd.read_csv("/content/datos_desafio_uno.csv")```
-
----
-## Pasos para ejecutarlo:
-
-Este proyecto demuestra cómo el análisis predictivo puede convertirse en una herramienta estratégica para reducir la cancelación de clientes, optimizar recursos y mejorar la rentabilidad empresarial.
-
-## Autora
-
-Gisela Figueroa
+df = pd.read_csv("/content/datos_desafio_uno.csv")
 

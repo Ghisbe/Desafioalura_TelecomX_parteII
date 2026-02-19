@@ -50,7 +50,7 @@ Para replicar este análisis en la nube, sigue estas instrucciones:
 3. **Subir el notebook:** Carga el archivo descargado en la plataforma.
 4. **Cargar los datos:** Sube manualmente el archivo CSV cuando el notebook lo solicite utilizando el siguiente bloque de código:
 
-### Código de Carga (Python):
+### Código de carga (Python):
 
 ```python
 from google.colab import files
